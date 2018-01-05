@@ -1,0 +1,744 @@
+
+h1
+{
+	font-family: 'Rubic', sans-serif;
+	font-weight: 700;
+	font-size: 200%;
+}
+
+.mob_head h1
+{
+	color: black;
+	padding: 1rem;
+	text-align: center;
+	font-size: 250%;
+
+
+
+}
+
+body
+
+{
+	background-image: url("pictures/body_background_mob.jpg");
+	background-size:cover;
+	background-position: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.alpha60 
+{
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+.left_column
+{
+	width:100%;
+	margin:1%;
+	margin-left: 0;
+	box-sizing:border-box;
+	box-shadow: 2px 2px 5px black;
+
+	padding:1rem;
+	padding-bottom: 1.05rem;
+
+	position: relative;
+}
+
+
+.avatar
+{
+	width:90%;
+	margin:3%;
+	padding:0;
+
+	border: 10px solid #8EA4BB;
+	box-shadow:2px 2px 5px black;
+
+}
+
+.left_column h1
+{
+	display: none;
+}
+
+.progress_bars 
+{
+	display: none;
+}
+
+.langs ul
+{
+	list-style: none;
+	text-align: center;
+}
+
+.langs li
+{
+	font-weight: 500;
+	display: inline-block;
+
+}
+
+.lang_level
+{
+	display: table-cell;
+	width: 75%;
+	padding-left: 2rem;
+}
+
+.flag
+{
+	width:60%;
+	padding-right: 1rem;
+	padding-top: 0.2rem;
+}
+
+.interests ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+.interests ul li
+{
+	display: inline-block;
+	width:24%;
+	box-sizing:border-box;
+
+}
+
+.interest_element
+{
+	position: relative;
+	box-sizing:border-box;
+	margin: 0;
+}
+
+.interest_element img
+{
+	width: 100%;
+}
+
+.interest_element p
+{
+	margin: 0;
+	width:25%;
+	padding-left: 3rem;
+	
+}
+
+.contacts
+{
+	font-weight: 500;
+}
+
+.contacts ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+.contacts ul li
+{
+	width:100%;
+	box-sizing:border-box;
+
+}
+
+.contact_element
+{
+	box-sizing:border-box;
+	margin: 0;
+}
+
+.contact_element img
+{
+	width: 7%;
+	display: inline;
+}
+
+.contact_element p
+{
+	display: inline-block;
+	margin: 0;
+	float:right;
+	width:75%;
+	padding-top:0.2rem;
+	padding-left: 1rem;
+	margin-left: -5rem;
+}
+
+.contacts a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.right_column
+{
+	width:100%;
+
+	margin:auto;
+	margin-bottom: 1%;
+
+	box-sizing:border-box;
+	box-shadow: 2px 2px 5px black;
+
+	padding-left:1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+
+.right_column h2, .left_column h2
+{
+	
+
+	background-color: #8DA4BC;
+	box-shadow: 2px 2px 5px black;
+
+	margin-left:1%;
+	margin-right: -1%;
+	margin-bottom: 0;
+
+	height:60px;
+
+	padding-top:15px;
+	padding-left: 1rem;
+
+	box-sizing:border-box;
+
+}
+
+.history ul
+{
+	list-style: none;
+}
+
+.tools
+{
+	display: none;
+}
+
+footer
+{
+	clear:both;
+	max-width: 1200px;
+	box-sizing:border-box;
+	width: 100%;
+	margin:auto;
+	padding: 1rem;
+	box-shadow: 2px 2px 5px black;
+}
+
+footer a
+{
+	text-decoration: underline;
+	color:black;
+}
+
+footer a:hover
+{
+	color:#8EA4BB;
+}
+
+footer h3, footer p
+{
+	font-size: 60%;
+}
+
+
+
+
+/*This is a media query; it's saying that the following styles will not 
+take effect when the window is below 800px in width.*/
+@media screen and (min-width: 800px)
+
+{
+
+.wrapper
+{
+	max-width: 1200px;
+	width: 100%;
+	margin:auto;
+
+
+}
+
+.head_wrapper
+{
+	max-width: 1200px;
+	width: 100%;
+	margin:auto;
+	margin-bottom: 0;
+
+}
+
+.mob_head
+{
+	display: none;
+}
+
+header
+{
+	margin:5rem;
+	/*border-bottom: 3px solid white;*/
+
+}
+
+
+body
+{
+	background-image: url("pictures/body_background.jpg");
+	background-size:cover;
+	background-position: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*this code is for background color opacity change, taken from 
+https://stackoverflow.com/questions/4792090/cross-browser-rgba-transparent-background-while-keeping-content-text-images/4792173#4792173 */
+.alpha60 {
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+
+.right_column
+{
+	width:65.66%;
+	margin:1%;
+	margin-right: 0;
+	box-sizing:border-box;
+	box-shadow: 2px 2px 5px black;
+	float: right;
+	padding-left:1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	/*border:.5px solid red;*/
+
+
+}
+
+.right_column h2
+{
+	background-color: #8DA4BC;
+	box-shadow: 2px 2px 5px black;
+
+	margin-left:-3.2%;
+	margin-bottom: 0;
+
+	height:60px;
+
+	padding-top:15px;
+	padding-left: 1rem;
+
+	box-sizing:border-box;
+
+}
+
+.history ul
+{
+	list-style-type: square;
+}
+
+.history_column1 p, .history_column2 p
+{
+	margin:0;
+}
+
+.history_column1 p strong, .history_column2 p strong
+{
+	color:#003E7F;
+}
+
+.history_column1 p em, .history_column2 p em
+{
+	padding-left: 2rem;
+	color:#395777;
+}
+
+.history_column1 h3, .history_column2 h3
+{
+	margin-bottom: 0;
+
+}
+
+.history_column1
+{
+	width:48%;
+	box-sizing:border-box;
+
+	float:left;
+	margin-left:1%;
+	margin-top: 1%;
+	height: 100%;
+	/*border: 1px solid red;*/
+
+}
+
+.history_column2
+{
+	width:48%;
+	float:right;
+
+	margin:1%;
+	box-sizing:border-box;
+	padding-bottom: 1rem;
+	/*border: 1px solid red;*/
+}
+
+.education
+{
+	clear: both;
+	margin-top: -1.5rem;
+
+}
+
+.education h3
+{
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.education p
+{
+	display: inline-block;
+
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+
+	padding-bottom: 0.5rem;
+
+	text-indent: 1rem;
+	font-weight: 400;
+}
+
+
+.education strong
+{
+	color:#003E7F;
+}
+
+.education em
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400i;
+	color:#395777;
+}
+
+.education .fyp
+{
+	text-indent: 2rem;
+}
+
+.tools
+{
+	display: block;
+}
+
+.container1
+{
+	margin-top: 1rem;
+}
+
+.container1 ul
+{
+	list-style: none;
+	display: inline-block;
+}
+
+.container1 h3
+{
+	display: inline-table;
+	margin-top: 0;
+	vertical-align: middle;
+	width:23%;
+}
+
+.icons_list
+{
+	display: inline-table;
+	width: 75%;
+}
+
+.icons_list ul
+{
+	margin-bottom:0;
+}
+
+.icons li
+{
+	display: inline-block;
+	width: 10%;
+
+	padding-right: 1rem;
+}
+
+.icons img
+{
+	display: inline-block;
+	width:100%;
+
+}
+
+.left_column
+{
+	width:32.33%;
+	float:left;
+	margin:1%;
+	margin-left: 0;
+	box-sizing:border-box;
+	box-shadow: 2px 2px 5px black;
+
+	padding:1rem;
+	padding-bottom: 1.05rem;
+
+	position: relative;
+
+}
+
+.left_column h1
+{
+	text-align: center;
+	color: black;
+	margin-bottom: 0;
+	margin-top: 0;
+
+}
+
+.left_column h2
+{
+	background-color: #8DA4BC;
+	box-shadow: 2px 2px 5px black;
+
+	margin-left:-6.5%;
+	margin-bottom: 0;
+
+	height:60px;
+
+	padding-top:15px;
+	padding-left: 1rem;
+
+	box-sizing:border-box;
+
+}
+
+.avatar
+{
+	width:90%;
+	margin:3%;
+	padding:0;
+
+	border: 10px solid #8EA4BB;
+	box-shadow:2px 2px 5px black;
+
+}
+
+.progress_bars
+{
+	display: block;
+}
+
+.progress_bars ul
+{
+	list-style: none;
+
+}
+
+.progress_bars li
+{
+	font-weight: 500;
+}
+
+.progress_bar
+{
+	width: 90%;
+	box-shadow: 2px 2px 5px black;
+}
+
+.progress_bar_tech
+{
+ 	background-color: #8EA4BB;
+ 	height:24px;
+ 	width:80%
+}
+
+.progress_bar_writing
+{
+ 	background-color: #8EA4BB;
+ 	height:24px;
+ 	width:100%
+}
+
+.progress_bar_leader
+{
+ 	background-color: #8EA4BB;
+ 	height:24px;
+ 	width:100%
+}
+
+.langs ul
+{
+	list-style: none;
+}
+
+.langs li
+{
+	font-weight: 500;
+	display: table-row;
+
+}
+
+.lang_level
+{
+	display: table-cell;
+	width: 75%;
+	vertical-align: middle;
+}
+
+.flag
+{
+	width:60%;
+	padding-right: 1rem;
+	padding-top: 0.2rem;
+}
+
+.interests ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+.interests ul li
+{
+	display: inline-block;
+	width:24%;
+	box-sizing:border-box;
+
+}
+
+.interest_element
+{
+	position: relative;
+	box-sizing:border-box;
+	margin: 0;
+}
+
+.interest_element img
+{
+	width: 100%;
+}
+
+.interest_element p
+{
+	margin: 0;
+	width:25%;
+	padding-left: 1rem;
+	
+}
+
+.contacts
+{
+	font-weight: 500;
+}
+
+.contacts ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+.contacts ul li
+{
+	width:100%;
+	box-sizing:border-box;
+
+}
+
+.contact_element
+{
+	box-sizing:border-box;
+	margin: 0;
+}
+
+.contact_element img
+{
+	width: 7%;
+	display: inline;
+}
+
+.contact_element p
+{
+	display: inline-block;
+	margin: 0;
+	float:right;
+	width:75%;
+	padding-top:0.2rem;
+	padding-left: 1rem;
+	margin-left: -5rem;
+}
+
+.contacts a
+{
+	text-decoration: none;
+	color: black;
+}
+
+footer
+{
+	clear:both;
+	max-width: 1200px;
+	box-sizing:border-box;
+	width: 100%;
+	margin:auto;
+	padding: 1rem;
+	box-shadow: 2px 2px 5px black;
+}
+
+footer a
+{
+	text-decoration: underline;
+	color:black;
+}
+
+footer a:hover
+{
+	color:#8EA4BB;
+}
+
+footer h3, footer p
+{
+	font-size: 60%;
+}
+
+}
+/*Clearfix taken from class courseworks*/
+/*Paste Clearfix styles here*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
