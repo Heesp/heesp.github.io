@@ -1,0 +1,45 @@
+/* ================ Summary styles =============== */
+
+.summary{
+
+  article{
+    width: 70%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+  }
+
+  .about-me{
+    flex: 3 0 30%;
+    margin: 1rem;
+  }
+
+  .avatar{
+    flex: 0 0 35%;
+    margin: 2rem;
+    margin-right: 3rem;
+  }
+
+  .avatar-img{
+    border: 10px solid $color__main-dark;
+    border-radius: 50%;
+
+    img{
+      clip-path: circle(50% at 50% 50%);
+    }
+  }
+
+  .details{
+    flex: 1 0 20%;
+    margin: 1rem;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+}

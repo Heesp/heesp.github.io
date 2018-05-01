@@ -1,0 +1,58 @@
+// Styles for all buttons on the Website
+
+// Styles for Scroll Up button
+.btn-scroll-up{
+  position: fixed;
+  right:3%;
+  bottom: 3%;
+
+  text-align: center;
+  display: none;
+  color:lightgrey;
+
+  &:hover i{
+    color:white;
+  }
+
+}
+
+.visible{
+  display: block;
+}
+
+
+// Styles for the Summary button "Contact me"
+
+.btn-contact{
+  display: block;
+  padding: 1em;
+  width: 6em;
+  margin-bottom: 2rem;
+  text-align: center;
+
+  background-color: $color__main-dark;
+  color:white;
+
+
+}
+
+
+// Styles for the Protfolio block button "Learn More..."
+// Button appeares on hover.
+
+.btn-learn-more{
+  text-decoration: none;
+  color: white;
+  padding: .6em;
+
+  align-self: center;
+
+  border: 1px solid white;
+
+  transition: all .5s ease;
+}
+
+.btn-learn-more:hover{
+  background-color: hsla(0,0%,99%,0.1);
+
+}
