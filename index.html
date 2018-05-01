@@ -1,329 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Yaroslav Kostiukov</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <style>
-	
-	@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500|Rubik:400,500,700');
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV Version 2.0</title>
 
-</style>
-  </head>
-  <body>
-  
-  	
+  <link rel="stylesheet" href="style.css" class="css">
 
-<div class="head_wrapper header_opacity">
-	<header>
-	
-		<div class="mob_head alpha60">
-			<h1>Yaroslav Kostiukov</h1>
-		</div>
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-	</header>
-</div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <script src="js/timeline.js" charset="utf-8"></script>
 
+  <link rel="shortcut icon" type="image/png" href="img/1header/favicon.png"/>
+</head>
+<body>
 
+  <header class="site-header">
+    <div class="img-block">
+      <div class="site-identity">
+        <div class="site-logo">
+          <img src="img/1header/yklogox3.png" alt="YK logo">
+        </div>
+        <h1 class="site-title">Yaroslav <br> Kostiukov</h1>
+      </div>
+      <div class="site-subtitle">
+        <h3>Interactive Resume</h3>
+      </div>
+    </div>
 
-<div class="wrapper">
-<main>
-		<div class="left_column alpha60 left_mob">	
-			
-			<img src="pictures/Avatar1.png" alt="personal photo" class="avatar">
+    <nav id="header-nav">
+      <ul>
+        <li class="menu-item menu-item-1"><a href="#education">
+          <i class="fas fa-graduation-cap fa-3x"></i>
+          <p class="text-line">Education</p>
+        </a></li>
 
-			<h1>Yaroslav Kostiukov</h1>
+        <li class="menu-item menu-item-2"><a href="#work-xp">
+          <i class="fas fa-briefcase fa-3x"></i>
+          <p class="text-line">Work Experience</p>
+        </a></li>
 
-			<section>
-				<h2>About</h2>
-					<p>
-						Young, pro-active gaming enthusiast with 5 years
-						of experience in marketing and project management.
-						Diverse set of skills includes strong computer use, 
-						digital communication skills and fluent Russian and English.
+        <li class="menu-item menu-item-3"><a href="#portfolio">
+          <i class="fas fa-folder fa-3x"></i>
+          <p class="text-line">Portfolio</p>
+        </a></li>
 
-					</p>
-			</section>
+        <li class="menu-item menu-item-4"><a href="#hobbies">
+          <i class="fas fa-heart fa-3x"></i>
+          <p class="text-line">Hobbies</p>
+        </a></li>
+      </ul>
+    </nav>
 
-<!-- Progress bar code was adapted from w3schools.com, https://www.w3schools.com/w3css/w3css_progressbar.asp -->
+    <div class="scroll-up">
+      <a href="#header-nav" class="btn-scroll-up">
+        <i class="fas fa-chevron-up fa-3x"></i>
+      </a>
+    </div>
 
-			<section class="progress_bars">
-					<h2>Skills</h2>
-						<ul>
-							<li>Technology</li>
-							<li>
-								<div class="progress_bar">
-									<div class="progress_bar_tech"></div>
-								</div><br></li>
-							<li>Professional Writing</li>
-							<li>
-								<div class="progress_bar">
-									<div class="progress_bar_writing"></div>
-								</div><br></li>
-							<li>Team Leadership and Cooperation</li>
-							<li>
-								<div class="progress_bar">
-									<div class="progress_bar_leader"></div>
-								</div><br></li>
-						</ul>
-			</section>
+  </header>
 
-			<section class="langs">
-					<h2>Languages</h2>
-						<ul> 
-							<li><img src="pictures/flagsicons/cad.png" alt="canadian flag" class="flag"> <span class="lang_level">Fluent Speaker</span></li>
-							<li><img src="pictures/flagsicons/rus.png" alt="russian flag" class="flag"> <span class="lang_level">Mother tongue</span></li>
-							<li><img src="pictures/flagsicons/ukr.png" alt="ukrainian flag" class="flag"> <span class="lang_level">Fluent Speaker</span></li>
-							<li><img src="pictures/flagsicons/fr.png" alt="french flag" class="flag"> <span class="lang_level">Beginner</span></li>
-						</ul>
-			</section>
+  <main>
+    <section class="summary">
+        <article>
+          <div class="about-me">
+            <p><span class="bold span-heading">Hello!</span><br>Thank you for you interest in my resume. I am a web developer with a lot of branding, marketing and entrepreneurial experience.</p>
 
-			<section class="interests">
-				<h2>Interests</h2>
+            <p>I picked up web development as a hobby a few years back to enhance my brand manager CV. But I loved it so much, I decided to make it my primary career.</p>
 
-					<ul>
+            <p>Today, I study web development at Langara College and aim to become a full-stack developer by December 2018.</p>
+          </div>
+        <div class="avatar">
+          <img src="img/2summary/avatar1.png" class="avatar-img" alt="Photo of Yaroslav Kostiukov">
+        </div>
 
-						<li>
-							<div class="interest_element">
-								<img src="pictures/interestsicons/esport.png" alt="computer with a mouse icon"> 
-								<p>Cyber Sport</p>
-							</div>
-						</li>
-						<li>
-							<div class="interest_element">
-								<img src="pictures/interestsicons/book.png" alt="book icon">  
-								<p>Science Fiction<p>
-							</div>
-						</li>
-						<li>
-							<div class="interest_element">
-								<img src="pictures/interestsicons/app.png" alt="smartphone icon">
-							<p>Mobile Apps</p>
-							</div>
-						</li>
-						<li>
-							<div class="interest_element">
-								<img src="pictures/interestsicons/games.png" alt="two people at a table icon" >
-							<p>Tabletop Games</p>
-							</div>
-						</li>
-					</ul>
-			</section>
+        <div class="details">
+            <div class="details-text">
+              <p><span class="bold span-heading">Details</span>
+                <br><span class="bold">Name:</span> <br>Yaroslav Kostiukov</p>
+              <p><span class="bold">Age:</span> <br>25</p>
+              <p><span class="bold">Location:</span> <br>Vancouver, BC, Canada</p>
+            </div>
+            <a class="btn-contact" href="#contact">Contact me</a>
+        </div>
+        </div>
+      </article>
+    </section>
 
-			<section class="contacts">
-				<h2>Contacts</h2>
-				<ul>
-					<li>
-							<div class="contact_element">
-								<img src="pictures/contacts/phone.png" alt="phone icon"> 
-								<p>+1 778 751 64 70</p>
-							</div>
-						</li>
-					<li>
-						<div class="contact_element">
-							<img src="pictures/contacts/email.png" alt="email icon"> 
-							<p>yaroslav.kostiukov@gmail.com</p>
-						</div>
-					</li>
-					<li>
-						<div class="contact_element">
-							<img src="pictures/contacts/facebook.png" alt="facebook logo"> 
-							<p><a href="https://www.facebook.com/yaroslav.kostyukov.9">Yaroslav Kostiukov</a></p>
-						</div>
-					</li>
-					<li>
-						<div class="contact_element">
-							<img src="pictures/contacts/linkedin.png" alt="linkedin logo"> 
-							<p><a href="https://www.linkedin.com/in/yaroslavkostiukov/">Yaroslav Kostiukov</a></p>
-						</div>
-					</li>
-				</ul>
-			</section>
+    <section class="education" id="education">
+        <h2 class="education-heading">Education</h2>
+        <article class="langara">
+            <a href="#"><img src="img/3education/langaralogo.jpg" alt="Langara College logo"></a>
+             <p><em>2017-present</em> </p>
 
-			
+              <p><span class="bold span-highlight">P.D. Diploma: Web and Mobile Application Development,</span>&nbsp; Designer stream</p>
+              <p class="fyp"><span class="bold span-highlight">Notable Project:</span>   "Langara Plus" application</p>
 
-		</div>      
+              <div class="program-description">
+                <p>The program is based around web development languages, such as JavaScript with its various libraries, PHP and of course HTML5 and CSS3.</p>
+                <p>The key feature of the program is its joined curriculum for both, developers and designers. As a designer, I learned key principles and languages of the web development before moving into more advanced UX and UI concepts. This will allow me take into account current web development practices and capabilities when developing designs for future projects.</p>
+              </div>
+        </article>
 
-		<div class="right_column alpha60 clearfix">
-					<div class="history">
-						
-						
-						<section>	
-						<h2>Work Experience</h2>
-							
-								<div class="history_column1 col clearfix">
-									<h3>Executive Secretary</h3> 
-									
-										<p>@ <strong>Aspen Ukraine Alumni Association</strong> 
-											<p><em>May - September 2017</em></p>
-											
-												<ul>
-													<li>Designed and presented Annual Impact Report of the Organization</li>
-													<li>Directed and produced video materials for the organization (link)</li>
-													<li>Planned, organized and facilitated Annual Organizational Meeting for approximately 200 members</li>
-												</ul>
-										
-		
-								<h3>Marketing Head</h3> 
-									<p>@ <strong>Best Quality Media Ltd</strong>
-									<p><em>June 2016 - August 2017</em></p> 
-										<ul>
-											<li>Developed marketing strategies for various projects  	
-												which include mobile app start-up, Impact Report,
-												and street food company
-											</li>
-										</ul>
-									
-		
-								<h3>Marketing Head</h3> 
-		
-									<p>@ <strong>BillSays Mobile App Start-up</strong> 
-										<p><em>July - December 2016</em></p>
-										<ul>
-											<li>Developed product marketing and marketing strategy</li>
-											<li>Designed UX aspect of the app</li>
-											<li>Engaged in Human Resource acquisition for the team</li>
-											<li>Facilitated team-building events</li>
-										</ul>
-									
-								</div>
-								<div class="history_column2 col clearfix">
-									<h3>Freelance Research Writer</h3>
-		
-									<p> @ <strong>Livingston Research</strong> 
-									 <p><em>September 2015 - August 2017</em></p>
-									<ul>
-										<li>Wrote 50+ reports on various topics, 		
-											including marketing, project management and business strategy</li>
-										</ul>
-									
-		
-									<h3>Co-founder</h3> 
-		
-									<p>@ <strong>Alchemists E-Sport Team Start-up</strong> 
-									<p><em>May - September 2015</em></p>
-										<ul>
-											<li>Engaged in company’s premises search in Kiev, Ukraine</li>
-											<li>Facilitated various brainstorming sessions</li>
-										</ul>
-									
-		
-									<h3>Intern </h3> 
-		
-									<p>@ <strong>Busin Insurance Company</strong> 
-										<p><em>July - August 2013</em></p>
-											<ul>
-												<li>Structured official documentation</li>
-												<li>Worked closely with government officials</li>
-											</ul>
-									
-		
-									<h3>Assistant Brand Manager</h3> 
-		
-									<p>@ <strong>Evolution Media Ltd</strong> 
-									<p><em>May 2012 - September 2013</em></p>
-										<ul>
-											<li>Facilitated and managed both internal and external events for the company</li>
-											<li>Participated in brand management</li>
-										</ul>
-									
-								</div> <!-- closing tag for .history_column2 -->
-						</section>
-						</div>
-		
-						<section class="education">
-							<h2>Education</h2>
-		
-								<h3>Langara College,</h3> <p><em>2017-present</em> </p>
-								<!-- &nbsp; was taken from https://www.computerhope.com/issues/ch001662.htm -->
-									
-									<p><strong>P.D. Diploma: Web and Mobile Application Development,</strong>&nbsp; Designer stream</p><br>
-		
-								<h3>Cass Business School,</h3> <p>City University London, &nbsp; <em>2012-2015</em></p>
-									<p><strong>Bachelor of Science with Honours</strong> in Management, 71%</p><br>
-									<p class="fyp"><strong>Final Year Project topic:</strong> Dynamic Business Model of an eSport Team</p>
-		
-								<h3>Pechersk School International,</h3> <p> &nbsp; <em>2009-2012</em></p><br>
-										<p>International Baccalaureate Diploma, 31 points</p>
-						</section>
-					
-		
-		
-					<section>
-					<div class="tools">
-						<h2>Tools and Applications</h2>
-							<div class="container1">
-								<h3>Creative tools: </h3> 
-									<div class="icons_list">
-										<ul class="icons">
-											<li><img src="pictures/toolsicons/adobecc.png" alt="adobe creative cloud logo"></li>
-											<li><img src="pictures/toolsicons/sketch.png" alt="sketch logo"></li>
-											<li><img src="pictures/toolsicons/invision.png" alt="invision logo"></li>
-										</ul>
-									</div>
+        <article class="cass">
+          <a href="#"><img src="img/3education/casslogo.png" alt="Cass Business School logo"></a>
+           <p><em>2012-2015</em></p>
+            <p><span class="bold span-highlight">Bachelor of Science with Honours</span> <br>in Management, 71%</p>
+            <p class="fyp"><span class="bold span-highlight">Final Year Project topic:</span> <br>Dynamic Business Model of an eSport Team</p>
+            <div class="program-description">
+              <p>The mandatory courses in this program focused on things that help manage the business: accounting, management theory, business statistics. I also took electives to enhance my entrepreneurial skills: branding, marketing and new venture thinking.</p>
+            </div>
+        </article>
 
-								<h3>Project Management tools: </h3> 
-									<div class="icons_list">
-										<ul class="icons">
-											<li><img src="pictures/toolsicons/slack.png" alt="slack logo"></li>
-											<li><img src="pictures/toolsicons/trello.png" alt="trello logo"></li>
-										</ul>
-									</div>	
+        <article class="psi">
+            <a href="#"><img src="img/3education/psilogo.png" alt="Pechersk School International logo"></a>
+            <p><em>2009-2012</em></p>
+                <p><span class="bold span-highlight">International Baccalaureate Diploma,</span> <br>31 points</p>
+                <p class="fyp"><span class="bold span-highlight">Notable Project:</span> <br>Photo-movie "Euro2012 in Ukraine"</p>
+                <div class="program-description">
+                  <p>International Baccalaureate program is renown for its difficulty and complexity. Here I first learned what the “all-nighter” was. However, this program has also taught me invaluable life skills, such as problem solving, critical thinking and application of knowledge.</p>
+        </article>
+    </section>
 
-								<h3>Digital Marketing:</h3> 
-									<div class="icons_list">
-										<ul class="icons">
-											<li><img src="pictures/toolsicons/mailchimp.png" alt="mailchimp logo"></li>
-											<li><img src="pictures/toolsicons/surveymonkey.png" alt="surveymonkey logo"></li>
-										</ul>
-									</div>
+    <section class="work-xp" id="work-xp">
 
-								<h3>Website Creation: </h3> 
-									<div class="icons_list">
-										<ul class="icons">
-											<li><img src="pictures/toolsicons/wix.png" alt="wix.com logo"></li>
-											<li><img src="pictures/toolsicons/wordpress.png" alt="wordpress logo"></li>
-										</ul>
-									</div>		
+      <div class="timeline">
+        <h2 class="work-xp-title">Work Experience</h2>
+        <div class="panel-container">
 
-									
-							</div>
-									
-							</div>
-							 
-						</div>
-						</section>
-						</div>
-		
-			
-</main>
-</div>
-<footer class="alpha60 clearfix">
-<h3>Images used in creation of this page:</h3>
-<p><a href="http://zakazportreta.ru/images/cms/data/folder/ajvazovskij_i_k_volna.jpg">I.K. Aivasovsky, The Wave, 1889.</a>
+          <div class="background-slider">
+             <img src="img/4workxp/timeline-background.jpg" alt="Background gradient">
+          </div>
+          <div class="panel-slider">
+            <div class="panel">
+              <div class="panel-content">
+                <h3>Co-founder</h3>
+                <p>@ DEOSTECH Web-design agency</p>
+                <p>Currently I am applying my knowledge and entrepreneurial experience to my newly acquired web development skills as a <br>co-founder of the web design agency. In the past 4 months we have completed 4 projects and are currently working on our 5th one. At the same time, we are actively looking to expand and hire new talents. </p>
+                <p>Jan 2018 - current</p>
 
-<a href="https://www.sketchapp.com/press/">Sketch: brand assets </a>
-<a href="https://www.adobe.com/legal/permissions/icons-web-logos.html">Adobe Creative Cloud: brand assets</a>
-<a href="https://projects.invisionapp.com/boards/BX4P1DY5H46R">Invision: brand assets</a>
-<a href="https://slack.com/brand-guidelines">Slack: brand assets</a>
-<a href="https://trello.com/about">Trello: brand assets</a>
-<a href="https://mailchimp.com/about/brand-assets/">MailChimp: brand assets</a>
-<a href="https://ru.wix.com/about/design-assets ">Wix.com: brand assets</a>
-<a href="https://wordpress.org/about/logos/ ">Wordpress: brand assets</a>
-<a href="http://www.customicondesign.com/free-icons/flag-icon-set/all-in-one-country-flag-icon-set/ ">Free flag icons by customicondesign.com</a>
-<a href="https://thenounproject.com/search/?q=desktop%20with%20mouse&i=1014809 ">old computer by b farias from the Noun Project</a>
-<a href="https://thenounproject.com/term/book/12217/">book by  Tim Boelaars, NL</a>
-<a href="https://thenounproject.com/search/?q=app&i=1002800 ">app by Thomas' designs</a>
-<a href="https://thenounproject.com/search/?q=tabletop%20games&i=499971 ">Tabletop game by Andrew Doane</a>
-<a href="https://thenounproject.com/search/?q=phone&i=1014267 ">Phone by Genius Icons</a>
-<a href="https://thenounproject.com/search/?q=email&i=32727 ">Email byLorena Salagre</a>
-<a href="https://thenounproject.com/search/?q=facebook%20logo&i=467225 ">Facebook by Sumana Chamrunworakiat: </a>
-<a href="https://brand.linkedin.com/downloads ">Linkedin: brand asstes</a>
-</p>
-
-</footer>
+                  <div class="label">Web Developer</div>
+                </div>
+              </div>
 
 
-  </body>
+              <div class="panel">
+                  <div class="panel-content">
+                    <h3>Brand Representative</h3>
+                    <p>@ Integral International</p>
+                    <p>This was my first Canadian employer. As a brand representative I was canvasing residential areas of Vancouver and other cities in BC.  In my second day of work, I have set the Canada-wide company record in new recruit's sales. In two months of work I have given more than 4000 pitches to what is known as the "ice-cold" leads.</p>
+                    <p>Dec 2017 - Jan 2018</p>
+                    <div class="label">Sales Representative</div>
+                  </div>
+                </div>
+
+
+              <div class="panel">
+                  <div class="panel-content">
+                    <h3>Executive Secretary</h3>
+                    <p>@ Aspen Ukraine Alumni Association</p>
+                    <p>My job was to make sure the organisation runs smoothly and has consistent online presence. My daily tasks included communications with the members and updating organisational website. I also have designed and presented Annual Impact Report of the Organization, and planned, organized and facilitated Annual Meeting for approximately 200 members. </p>
+                    <p>May - Sep 2017</p>
+
+                    <div class="label">Executive Secretary</div>
+                  </div>
+                </div>
+
+              <div class="panel">
+                <div class="panel-content">
+                    <h3>Marketing Head</h3>
+                    <p>@ BillSays Mobile App Start-up</p>
+                    <p>After my graduation I have been a part of two start-up projects.
+                    <br>One was an e-sport team “Alchemists”, where I was in charge of our business planning and organisation.
+                    <br>Second was a mobile app “Bill Says”, where I was the marketing head, developing brand identity and online presence.</p>
+                    <p>Jul 2015 - Dec 2016</p>
+
+                  <div class="label">Entrepreneur</div>
+                </div>
+              </div>
+
+              <div class="panel">
+                  <div class="panel-content">
+                    <h3>Marketing Head</h3>
+                    <p>@ Best Quality Media Ltd</p>
+                    <p>At BQM I was responsible for developing marketing strategies for a number of projects. The most notable project was a Ukrainian fast-food company “Cossack’s Sandwich”. My job was to create brand identity, design and develop company’s website and establish its online presence. This was also the time I looked into web design as my hobby.</p>
+                    <p>Jun 2016 - Aug 2017</p>
+
+                    <div class="label">Marketing Manager</div>
+                  </div>
+                </div>
+
+                <div class="panel">
+                  <div class="panel-content">
+                    <h3>Freelance Research Writer</h3>
+                    <p> @ Livingston Research</p>
+                    <p>During my time as the freelance research writer, I wrote more than 50 comprehensive reports on various topics, including marketing, project management and business strategy. This was my first experience as the freelancer, and it has taught me a lot about self-scheduling, personal responsibility and discipline.</p>
+                    <p>Sep 2015 - Aug 2017</p>
+
+
+                    <div class="label">Research Writer</div>
+                  </div>
+                </div>
+
+
+                <div class="panel">
+                  <div class="panel-content">
+                    <h3>Assistant Brand Manager</h3>
+                    <p>@ Evolution Media Ltd</p>
+                        <p>This was my first official job. Evolution Media was one of the Top3 media houses in Ukraine. My tasks were to help improve the brand awareness of the English newspaper, Kiev Weekly. I have participated in creation of a seasonal advertisement campaign, as well as ensured correct brand display across the network of more than 20 selling points.</p>
+                        <p>May 2012 - Sep 2013</p>
+
+                    <div class="label">Brand Manager</div>
+                  </div>
+                </div>
+          </div>
+          <nav class="timeline-nav"></nav>
+        </div>
+      </div> <!-- closing tag for timeline -->
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <article>
+        <div class="portfolio-grid">
+          <h2 class="portfolio-heading">Portfolio</h2>
+          <div class="item item1">
+              <div class="item-image">
+                <img src="img/5portfolio/port_item_1.png" alt="">
+              </div>
+              <div class="item-background"></div>
+              <div class="item-description">
+                <h3>VIP Installation</h3>
+                <p>Business website for a local windows installation company. Currently in development.</p>
+                <a href="#" class="btn-learn-more">Learn more... </a>
+                <p><span class="bold">Tags:</span> WordPress, DEOSTECH, Client</p>
+              </div>
+          </div>
+          <div class="item item2">
+            <div class="item-image">
+              <img src="img/5portfolio/port_item_2.png" alt="">
+            </div>
+            <div class="item-background"></div>
+            <div class="item-description">
+              <h3>The Bloomerie</h3>
+              <p>Website for a local florist.</p>
+              <a href="http://thebloomerie.ca/" class="btn-learn-more">Learn more... </a>
+              <p><span class="bold">Tags:</span> WordPress, DEOSTECH, Client</p>
+            </div>
+          </div>
+          <div class="item item3">
+            <div class="item-image">
+              <img src="img/5portfolio/port_item_3.png" alt="">
+            </div>
+            <div class="item-background"></div>
+            <div class="item-description">
+              <h3>Langara Plus</h3>
+              <p>CMS system for Langara College.</p>
+              <a href="http://rodster.website/lpp" class="btn-learn-more">Learn more... </a>
+              <p><span class="bold">Tags:</span> WordPress, PHP, College</p>
+            </div>
+          </div>
+          <div class="item item4">
+            <div class="item-image">
+              <img src="img/5portfolio/port_item_4.png" alt="">
+            </div>
+            <div class="item-background"></div>
+            <div class="item-description">
+              <h3 class="project-title">Eatery</h3>
+              <p class="project-descr">Web menu for a modern restaurant.</p>
+              <a href="#" class="btn-learn-more">Learn more... </a>
+              <p class="project-tags"><span class="bold">Tags:</span> HTML/CSS, Landing Page, College</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+      <article class="hobbies-content">
+        <div class="hobby-title">
+          <h2>Hobbies</h2>
+          <p class="quote">"To find happiness in life, find three hobbies: <br>one to make you money, one to keep you in shape <br>and one to express your creativity."</p>
+        </div>
+
+        <div class="hobby-item hobby-money">
+          <h3>Money</h3>
+          <p>I said I consider web-development a hobby, because it is so enjoyable for me, I can spend few days in a row working on a project or learning new things about a feature. Now, when I got a formal education in the subject, I love it even more. </p>
+          <p>My interests don’t stop at only web languages, like JavaScript. I realised I have a skill and passion for coding in general, and recently I started looking into game development as another potential money-generating hobby, using Unity and C#.</p>
+          <img src="img/6hobbies/hobby_money_icon.png" alt="">
+        </div>
+        <div class="hobby-item hobby-shape">
+          <h3>Shape</h3>
+          <p>Ever since I first saw a Jackie Chan movie, I was fascinated with martial arts. The art of mastering your own body always appealed to me. I love martial arts because to master them you have to constantly push yourself and be a better version of your yesterday’s self.</p>
+          <p>When I moved to Vancouver my friend recommended me a master, who teaches krav maga. So now, twice a week, you can find me at the gym throwing kicks and punches and torturing myself with exercises.</p>
+          <img src="img/6hobbies/hobby_shape_icon.png" alt="">
+        </div>
+        <div class="hobby-item hobby-create">
+          <h3>Creativity</h3>
+          <p>I have been a gamer for my whole life. I think video games are the most complete art form humanity has created. To any good game there is a story, music, art, game design and much, much more.</p>
+          <p>However, only recently I picked up the hobby that allows me to fully express my creativity.
+          <br>I discovered the world of table-top RPGs, such as “Dungeon and Dragons”. I began creating my own world, my own stories, landscapes and people and I am not stopping any time soon.</p>
+          <img src="img/6hobbies/hobby_create_icon.png" alt="">
+        </div>
+      </article>
+    </section>
+
+
+  </main>
+
+  <footer id="contact">
+    <div class="footer-content">
+      <div class="footer-heading">
+        <h2>Contact me</h2>
+      </div>
+      <div class="socials">
+        <h3>Find me on social networks</h3>
+        <div class="facebook">
+          <a href="https://www.facebook.com/yaroslav.kostyukov.9">
+            <i class="fab fa-facebook-f"></i>
+            Yaroslav Kostiukov
+          </a>
+        </div>
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/yaroslavkostiukov/">
+            <i class="fab fa-linkedin-in"></i>
+            Yaroslav Kostiukov
+          </a>
+        </div>
+      </div>
+      <div class="email">
+        <h3>Or just email me</h3>
+        <a href="mailto:yaroslav.kostiukov@gmail.com">
+          <i class="fas fa-at"></i>
+          yaroslav.kostiukov@gmail.com
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
 </html>
