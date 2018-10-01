@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5b247a"/>
+      <stop offset="1" stop-color="#1bcedf"/>
+    </linearGradient>
+  </defs>
+  <g id="Behance_Icon" data-name="Behance Icon" transform="translate(-112 -895)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="20" cy="20" r="20" transform="translate(112 895)"/>
+    <path id="behance-brands" class="cls-2" d="M9.264,81.861A3.03,3.03,0,0,0,11.2,78.906c0-2.819-2.1-3.506-4.524-3.506H0V89.551H6.86c2.572,0,4.987-1.234,4.987-4.109A3.41,3.41,0,0,0,9.264,81.861ZM3.111,77.816H6.03c1.122,0,2.132.315,2.132,1.617,0,1.2-.787,1.685-1.9,1.685H3.111v-3.3Zm3.326,9.332H3.111v-3.9H6.5c1.37,0,2.236.571,2.236,2.02,0,1.43-1.034,1.877-2.3,1.877Zm14.315-9.611H15.014V76.143h5.738ZM23,84.576c0-3.031-1.773-5.558-4.987-5.558A5.149,5.149,0,0,0,12.77,84.44c0,3.19,2.009,5.379,5.243,5.379a4.568,4.568,0,0,0,4.8-3.446H20.325A2.331,2.331,0,0,1,18.1,87.711,2.317,2.317,0,0,1,15.585,85.1h7.391C22.988,84.935,23,84.756,23,84.576ZM15.589,83.33a2.2,2.2,0,0,1,2.336-2.188,2.1,2.1,0,0,1,2.244,2.188Z" transform="translate(121 832.281)"/>
+  </g>
+</svg>

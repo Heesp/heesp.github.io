@@ -4,347 +4,211 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Yaroslav Kostiukov</title>
-
-  <link rel="stylesheet" href="style.css" class="css">
-
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src="scripts.js" charset="utf-8"></script>
 
-  <script src="js/scripts.js" charset="utf-8"></script>
-  <script src="js/timeline.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" class="css">
+  <link rel="stylesheet" href="hamburgers.css" class="css">
 
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <title>Yaroslav Kostiukov - UX/UI Designer</title>
 </head>
 <body>
+    <header>
+      <div class="header-bg">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand header-title" href="index.html">Yaroslav Kostiukov</a>
 
-  <header class="site-header">
-    <div class="img-block">
-      <div class="site-identity">
-        <div class="site-logo">
-          <img src="img/1header/yklogox3.png" alt="YK logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="YaroslavKostiukovUXUIDesigner.pdf" download target="_blank">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <h1 class="site-title">Yaroslav <br> Kostiukov</h1>
       </div>
-      <div class="site-subtitle">
-        <h3>Interactive Resume</h3>
-      </div>
-    </div>
+    </header>
 
-    <nav id="header-nav">
-      <ul>
-        <li class="menu-item menu-item-1"><a href="#education">
-          <i class="fas fa-graduation-cap fa-3x"></i>
-          <p class="text-line">Education</p>
-        </a></li>
+    <main class="wrapper">
 
-        <li class="menu-item menu-item-2"><a href="#work-xp">
-          <i class="fas fa-briefcase fa-3x"></i>
-          <p class="text-line">Work Experience</p>
-        </a></li>
+      <!-- <img src="img/dashed-path-mobile.svg" alt="Dashed path going all the way through the page" class="dashed-path-mobile"> -->
 
-        <li class="menu-item menu-item-3"><a href="#portfolio">
-          <i class="fas fa-folder fa-3x"></i>
-          <p class="text-line">Portfolio</p>
-        </a></li>
 
-        <li class="menu-item menu-item-4"><a href="#hobbies">
-          <i class="fas fa-heart fa-3x"></i>
-          <p class="text-line">Hobbies</p>
-        </a></li>
-      </ul>
-    </nav>
+      <section class="top-block">
+        <h1 class="site-title">Hello there,
+          <br>I'm <span class="top-highlight">Yar</span></h1>
 
-    <div class="scroll-up">
-      <a href="#header-nav" class="btn-scroll-up">
-        <i class="fas fa-chevron-up fa-3x"></i>
-      </a>
-    </div>
+      <p class="site-subtitle">I'm a UX/UI designer.
+        <br>I currently study Web and Mobile Development at Langara College.</p>
+      <p class="site-subtitle">Follow Antey to find my projects</p>
 
-  </header>
+      <!-- <img class="antey-bed" src="img/antey-bed.png" alt="vector drawing of a bull terier on a dog bed"> -->
+      <img src="img/road.svg" alt="Dashed path going all the way through the page" class="dashed-path">
+      </section>
 
-  <main class="wrapper">
-    <section class="summary">
-        <article>
-          <div class="about-me">
-            <p><span class="bold span-heading">Hello!</span><br>Thank you for your interest in my resume. I am a web developer with a lot of branding, marketing and entrepreneurial experience.</p>
 
-            <p>I picked up web development as a hobby a few years back to enhance my brand manager CV. But I loved it so much, I decided to make it my primary career.</p>
 
-            <p>Today, I study web development at Langara College and aim to become a full-stack developer by December 2018.</p>
-          </div>
-        <div class="avatar">
-          <img src="img/2summary/avatar1.png" class="avatar-img" alt="Photo of Yaroslav Kostiukov">
+      <section class="project leal">
+        <div class="project-img-wrap">
+          <a href="projects/leal.html">
+            <img src="img/lealMockupWebsite.svg" alt="A mockup of iPhoneX with leal app" class="project-image">
+            </a>
         </div>
 
-        <div class="details">
-            <div class="details-text">
-              <p><span class="bold span-heading">Details</span>
-                <br><span class="bold">Name:</span> <br>Yaroslav Kostiukov</p>
-              <p><span class="bold">Age:</span> <br>25</p>
-              <p><span class="bold">Location:</span> <br>Vancouver, BC, Canada</p>
-            </div>
-            <a class="btn-contact" href="#contact">Contact me</a>
+        <div class="project-text">
+          <h2 class="project-title">leal
+            <br> SMB Loyalty App
+          </h2>
+
+
+          <p class="project-descr">This is my Capstone Project at Langara. I am currently working on it, wearing multiple hats, such as UX Designer, Project Manager, and Quality Tester.</p>
+
+          <a href="projects/leal.html" class="project-page-link project-page-link-leal">View Project Page</a>
         </div>
-        </div>
-      </article>
-    </section>
+      </section>
 
-    <section class="education" id="education">
-        <h2 class="education-heading">Education</h2>
-        <article class="langara">
-            <a href="#"><img src="img/3education/langaralogo.jpg" alt="Langara College logo"></a>
-             <p><em>2017-present</em> </p>
-
-              <p><span class="bold span-highlight">P.D. Diploma: Web and Mobile Application Development,</span>&nbsp; Designer stream</p>
-              <p class="fyp"><span class="bold span-highlight">Notable Project:</span>   "Langara Plus" application</p>
-
-              <div class="program-description">
-                <p>The program is based around web development languages, such as JavaScript with its various libraries, PHP and of course HTML5 and CSS3.</p>
-                <p>The key feature of the program is its joined curriculum for both, developers and designers. As a designer, I learned key principles and languages of the web development before moving into more advanced UX and UI concepts. This will allow me take into account current web development practices and capabilities when developing designs for future projects.</p>
-              </div>
-        </article>
-
-        <article class="cass">
-          <a href="#"><img src="img/3education/casslogo.png" alt="Cass Business School logo"></a>
-           <p><em>2012-2015</em></p>
-            <p><span class="bold span-highlight">Bachelor of Science with Honours</span> <br>in Management, 71%</p>
-            <p class="fyp"><span class="bold span-highlight">Final Year Project topic:</span> <br>Dynamic Business Model of an eSport Team</p>
-            <div class="program-description">
-              <p>The mandatory courses in this program focused on things that help manage the business: accounting, management theory, business statistics. I also took electives to enhance my entrepreneurial skills: branding, marketing and new venture thinking.</p>
-            </div>
-        </article>
-
-        <article class="psi">
-            <a href="#"><img src="img/3education/psilogo.png" alt="Pechersk School International logo"></a>
-            <p><em>2009-2012</em></p>
-                <p><span class="bold span-highlight">International Baccalaureate Diploma,</span> <br>31 points</p>
-                <p class="fyp"><span class="bold span-highlight">Notable Project:</span> <br>Photo-movie "Euro2012 in Ukraine"</p>
-                <div class="program-description">
-                  <p>International Baccalaureate program is renown for its difficulty and complexity. Here I first learned what the “all-nighter” was. However, this program has also taught me invaluable life skills, such as problem solving, critical thinking and application of knowledge.</p>
-        </article>
-    </section>
-
-    <section class="work-xp" id="work-xp">
-
-      <div class="timeline">
-        <h2 class="work-xp-title">Work Experience</h2>
-        <div class="panel-container">
-
-          <div class="background-slider">
-             <img src="img/4workxp/timeline-background.jpg" alt="Background gradient">
-          </div>
-          <div class="panel-slider">
-            <div class="panel">
-              <div class="panel-content">
-                <h3>Co-founder</h3>
-                <p>@ DEOSTECH Web-design agency</p>
-                <p>Currently I am applying my knowledge and entrepreneurial experience to my newly acquired web development skills as a <br>co-founder of the web design agency. In the past 4 months we have completed 4 projects and are currently working on our 5th one. At the same time, we are actively looking to expand and hire new talents. </p>
-                <p>Jan 2018 - current</p>
-
-                  <div class="label">Web Developer</div>
-                </div>
-              </div>
-
-
-              <div class="panel">
-                  <div class="panel-content">
-                    <h3>Brand Representative</h3>
-                    <p>@ Integral International</p>
-                    <p>This was my first Canadian employer. As a brand representative I was canvasing residential areas of Vancouver and other cities in BC.  In my second day of work, I have set the Canada-wide company record in new recruit's sales. In two months of work I have given more than 4000 pitches to what is known as the "ice-cold" leads.</p>
-                    <p>Dec 2017 - Jan 2018</p>
-                    <div class="label">Sales Representative</div>
-                  </div>
-                </div>
-
-
-              <div class="panel">
-                  <div class="panel-content">
-                    <h3>Executive Secretary</h3>
-                    <p>@ Aspen Ukraine Alumni Association</p>
-                    <p>My job was to make sure the organisation runs smoothly and has consistent online presence. My daily tasks included communications with the members and updating organisational website. I also have designed and presented Annual Impact Report of the Organization, and planned, organized and facilitated Annual Meeting for approximately 200 members. </p>
-                    <p>May - Sep 2017</p>
-
-                    <div class="label">Executive Secretary</div>
-                  </div>
-                </div>
-
-              <div class="panel">
-                <div class="panel-content">
-                    <h3>Marketing Head</h3>
-                    <p>@ BillSays Mobile App Start-up</p>
-                    <p>After my graduation I have been a part of two start-up projects.
-                    <br>One was an e-sport team “Alchemists”, where I was in charge of our business planning and organisation.
-                    <br>Second was a mobile app “Bill Says”, where I was the marketing head, developing brand identity and online presence.</p>
-                    <p>Jul 2015 - Dec 2016</p>
-
-                  <div class="label">Entrepreneur</div>
-                </div>
-              </div>
-
-              <div class="panel">
-                  <div class="panel-content">
-                    <h3>Marketing Head</h3>
-                    <p>@ Best Quality Media Ltd</p>
-                    <p>At BQM I was responsible for developing marketing strategies for a number of projects. The most notable project was a Ukrainian fast-food company “Cossack’s Sandwich”. My job was to create brand identity, design and develop company’s website and establish its online presence. This was also the time I looked into web design as my hobby.</p>
-                    <p>Jun 2016 - Aug 2017</p>
-
-                    <div class="label">Marketing Manager</div>
-                  </div>
-                </div>
-
-                <div class="panel">
-                  <div class="panel-content">
-                    <h3>Freelance Research Writer</h3>
-                    <p> @ Livingston Research</p>
-                    <p>During my time as the freelance research writer, I wrote more than 50 comprehensive reports on various topics, including marketing, project management and business strategy. This was my first experience as the freelancer, and it has taught me a lot about self-scheduling, personal responsibility and discipline.</p>
-                    <p>Sep 2015 - Aug 2017</p>
-
-
-                    <div class="label">Research Writer</div>
-                  </div>
-                </div>
-
-
-                <div class="panel">
-                  <div class="panel-content">
-                    <h3>Assistant Brand Manager</h3>
-                    <p>@ Evolution Media Ltd</p>
-                        <p>This was my first official job. Evolution Media was one of the Top3 media houses in Ukraine. My tasks were to help improve the brand awareness of the English newspaper, Kiev Weekly. I have participated in creation of a seasonal advertisement campaign, as well as ensured correct brand display across the network of more than 20 selling points.</p>
-                        <p>May 2012 - Sep 2013</p>
-
-                    <div class="label">Brand Manager</div>
-                  </div>
-                </div>
-          </div>
-          <nav class="timeline-nav"></nav>
-        </div>
-      </div> <!-- closing tag for timeline -->
-    </section>
-
-    <section class="portfolio" id="portfolio">
-      <article>
-        <div class="portfolio-grid">
-          <h2 class="portfolio-heading">Portfolio</h2>
-          <div class="item item1">
-              <div class="item-image">
-                <img src="img/5portfolio/port_item_1.png" alt="">
-              </div>
-              <div class="item-background"></div>
-              <div class="item-description">
-                <h3>VIP Installation</h3>
-                <p>Business website for a local windows installation company. Currently in development.</p>
-                <a href="#" class="btn-learn-more" target="_blank">Learn more... </a>
-                <p><span class="bold">Tags:</span> WordPress, DEOSTECH, Client</p>
-              </div>
-          </div>
-          <div class="item item2">
-            <div class="item-image">
-              <img src="img/5portfolio/port_item_2.png" alt="">
-            </div>
-            <div class="item-background"></div>
-            <div class="item-description">
-              <h3>The Bloomerie</h3>
-              <p>Website for a local florist.</p>
-              <a href="http://thebloomerie.ca/" class="btn-learn-more" target="_blank">Learn more... </a>
-              <p><span class="bold">Tags:</span> WordPress, DEOSTECH, Client</p>
-            </div>
-          </div>
-          <div class="item item3">
-            <div class="item-image">
-              <img src="img/5portfolio/port_item_3.png" alt="">
-            </div>
-            <div class="item-background"></div>
-            <div class="item-description">
-              <h3>Langara Plus</h3>
-              <p>CMS system for Langara College.</p>
-              <a href="http://rodster.website/lpp" class="btn-learn-more" target="_blank">Learn more... </a>
-              <p><span class="bold">Tags:</span> WordPress, PHP, College</p>
-            </div>
-          </div>
-          <div class="item item4">
-            <div class="item-image">
-              <img src="img/5portfolio/port_item_4.png" alt="">
-            </div>
-            <div class="item-background"></div>
-            <div class="item-description">
-              <h3 class="project-title">Eatery</h3>
-              <p class="project-descr">Web menu for a modern restaurant.</p>
-              <a href="#" class="btn-learn-more">Learn more... </a>
-              <p class="project-tags"><span class="bold">Tags:</span> HTML/CSS, Landing Page, College</p>
-            </div>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section class="hobbies" id="hobbies">
-      <article class="hobbies-content">
-        <div class="hobby-title">
-          <h2>Hobbies</h2>
-          <p class="quote">"To find happiness in life, find three hobbies: <br>one to make you money, one to keep you in shape <br>and one to express your creativity."</p>
+      <section class="project fauna">
+        <div class="project-img-wrap">
+            <a href="projects/fauna.html" class="project-page-link project-page-link-fauna"><img src="img/FaunaMockupWebsite.png" alt="A mockup of iPhoneX with leal app" class="project-image"></a>
         </div>
 
-        <div class="hobby-item hobby-money">
-          <h3>Money</h3>
-          <p>I said I consider web-development a hobby, because it is so enjoyable for me, I can spend few days in a row working on a project or learning new things about a feature. Now, when I got a formal education in the subject, I love it even more. </p>
-          <p>My interests don’t stop at only web languages, like JavaScript. I realised I have a skill and passion for coding in general, and recently I started looking into game development as another potential money-generating hobby, using Unity and C#.</p>
-          <img src="img/6hobbies/hobby_money_icon.png" alt="">
-        </div>
-        <div class="hobby-item hobby-shape">
-          <h3>Shape</h3>
-          <p>Ever since I first saw a Jackie Chan movie, I was fascinated with martial arts. The art of mastering your own body always appealed to me. I love martial arts because to master them you have to constantly push yourself and be a better version of your yesterday’s self.</p>
-          <p>When I moved to Vancouver my friend recommended me a master, who teaches krav maga. So now, twice a week, you can find me at the gym throwing kicks and punches and torturing myself with exercises.</p>
-          <img src="img/6hobbies/hobby_shape_icon.png" alt="">
-        </div>
-        <div class="hobby-item hobby-create">
-          <h3>Creativity</h3>
-          <p>I have been a gamer for my whole life. I think video games are the most complete art form humanity has created. To any good game there is a story, music, art, game design and much, much more.</p>
-          <p>However, only recently I picked up the hobby that allows me to fully express my creativity.
-          <br>I discovered the world of table-top RPGs, such as “Dungeon and Dragons”. I began creating my own world, my own stories, landscapes and people and I am not stopping any time soon.</p>
-          <img src="img/6hobbies/hobby_create_icon.png" alt="">
-        </div>
-      </article>
-    </section>
+        <div class="project-text">
+          <h2 class="project-title">Fauna
+            <br>Interactive Wildlife Locator
+          </h2>
 
+          <p class="project-descr">This was a fun DataVis project where I took the role of the Lead Designer. As a team of 3 Designers and 2 Developers, we developed this prototype in 12 weeks.</p>
 
-  </main>
+          <a href="projects/fauna.html" class="project-page-link project-page-link-fauna">View Project Page</a>
+        </div>
+      </section>
 
-  <footer id="contact">
-    <div class="footer-content">
-      <div class="footer-heading">
-        <h2>Contact me</h2>
-      </div>
-      <div class="socials">
-        <h3>Find me on social networks</h3>
-        <div class="facebook">
-          <a href="https://www.facebook.com/yaroslav.kostyukov.9" target="_blank">
-            <i class="fab fa-facebook-f"></i>
-            Yaroslav Kostiukov
+      <section class="project nara">
+        <div class="project-img-wrap">
+          <a href="projects/nara.html">
+            <img src="img/NaraWalkMockupWebsite.png" alt="A mockup of iPhoneX with leal app" class="project-image img-nara">
           </a>
         </div>
-        <div class="linkedin">
-          <a href="https://www.linkedin.com/in/yaroslavkostiukov/" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-            Yaroslav Kostiukov
+
+        <div class="project-text">
+          <h2 class="project-title">TheBloomerie
+            <br>Local Flower Shop
+          </h2>
+
+          <p class="project-descr">During my time in Langara I co-founded a full-service web-development agency "DeosTech" and this is one of our best projects.</p>
+
+          <a href="projects/bloom.html" class="project-page-link project-page-link-nara">View Project Page</a>
+        </div>
+      </section>
+
+      <section class="project studies">
+        <div class="project-img-wrap">
+          <a href="projects/studies.html">
+            <img src="img/WeatherAppMockupWebsite.png" alt="A mockup of iPhoneX with leal app" class="project-image img-studies">
           </a>
         </div>
-      </div>
-      <div class="email">
-        <h3>Or just email me</h3>
-        <a href="mailto:yaroslav.kostiukov@gmail.com">
-          <i class="fas fa-at"></i>
-          yaroslav.kostiukov@gmail.com
-        </a>
-      </div>
-    </div>
-  </footer>
+
+        <div class="project-text">
+          <h2 class="project-title">Design Studies
+          </h2>
+
+          <p class="project-descr">I have also made a few design studies and composition projects as the part of my journey learning design thinking and tools of the trade.</p>
+
+          <a href="projects/studies.html" class="project-page-link project-page-link-studies">View All Projects</a>
+        </div>
+      </section>
+
+      <section class="project contact">
+
+        <div class="project-img-wrap">
+          <div class="ava-block">
+            <img src="img/found-me.svg" alt="Yaroslav Kostiukov photo" class="project-image">
+
+            <!-- <img class="antey-hang" src="img/antey-hang.png" alt="vector drawing of a bull terier hanging from a picture"> -->
+
+          </div>
+        </div>
+
+        <div class="project-text">
+          <div class="about-text">
+            <h2 class="project-title">Hey! You found <span class="bot-highilight">me!</span>
+            </h2>
+
+            <p class="project-descr">I moved to Canada not that long ago from Ukraine and fell in love with Vancouver!</p>
+
+            <p class="project-descr">Here I graduated Web and Mobile Application Development at Langara College.</p>
+
+            <!-- <p class="project-descr">In my spare time I play eSports, watch geeky internet shows and try to form a DnD group.</p> -->
+
+            <p class="project-descr">Send me a message if you would like to work together!</p>
+
+          </div>
 
 
+
+        </div>
+
+      </section>
+
+      <div class="contact-wrap" id="contact">
+        <form action="https://getsimpleform.com/messages?form_api_token=<form_api_token>" method="post" class="contact-form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-submit">Send</button>
+        </form>
+
+        <div class="contact-message">
+          <p class="project-descr">
+            I built this website using HTML5/CSS3, Bootstrap and a few light JavaScript libraries.</p>
+
+            <p class="project-descr">Contact me to if you need any help with:</p>
+                <ul>
+                  <li class="project-descr">UX Research</li>
+                  <li class="project-descr">UX Design</li>
+                  <li class="project-descr">UI Design</li>
+                  <li class="project-descr">Marketing Graphics</li>
+                  <li class="project-descr">Web Development</li>
+                </ul>
+
+            <p class="project-descr">  or if you would like to know more about my process.
+          </p>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>&copy2018 Yaroslav Kostiukov</p>
+    </footer>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>

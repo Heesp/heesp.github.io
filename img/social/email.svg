@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6078ea;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Path_50" data-name="Path 50" class="cls-1" d="M17.5,2.5H2.5L10,8.75ZM0,2.5A2.507,2.507,0,0,1,2.5,0h15A2.507,2.507,0,0,1,20,2.5v10A2.507,2.507,0,0,1,17.5,15H2.5A2.507,2.507,0,0,1,0,12.5Z"/>
+</svg>

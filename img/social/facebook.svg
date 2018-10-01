@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#17ead9"/>
+      <stop offset="1" stop-color="#6078ea"/>
+    </linearGradient>
+  </defs>
+  <g id="Facebook_Icon" data-name="Facebook Icon" transform="translate(-112 -895)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="20" cy="20" r="20" transform="translate(112 895)"/>
+    <g id="Facebook_White" data-name="Facebook White" transform="translate(127.833 906.667)">
+      <path id="facebook-f-brands" class="cls-2" d="M2.5,16.667V9.212H0V6.25H2.5V3.916A3.57,3.57,0,0,1,6.309,0,20.961,20.961,0,0,1,8.594.117v2.65H7.025c-1.23,0-1.468.586-1.468,1.442V6.25H8.333L7.952,9.212h-2.4v7.454" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>
