@@ -147,6 +147,10 @@ nav ul li{
   color: var(--base);
 }
 
+.mobile-hidden{
+  display: none;
+}
+
 .antey-bed{
   width: 140px;
   margin-top: 2rem;
