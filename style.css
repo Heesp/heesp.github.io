@@ -383,6 +383,10 @@ footer p{
     font-size: 24px;
   }
 
+  .mobile-hidden{
+    display: block;
+  }
+
   .antey-bed{
     width: 210px;
   }
