@@ -36,6 +36,11 @@
   margin-bottom: 5rem;
 }
 
+.project-page video{
+  max-width: 100%;
+  margin-bottom: 5rem;
+}
+
 .project-page h2{
   font-family: 'Muli','Helvetica', sans-serif;
   font-size: 20px;
