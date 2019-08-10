@@ -1,6 +1,20 @@
 .project-page{
-  max-width: 800px;
+  max-width: 1200px;
   margin-top: 100px;
+}
+
+.project-page p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--base);
+
+  max-width: 85%;
 }
 
 .project-page .project-title{
@@ -8,11 +22,19 @@
   margin-bottom: 2rem;
 }
 
-.project-hats-worn span{
+.project-hats-worn span,
+.project-tech-used span{
   font-size: 23pt;
   margin-right: 2rem;
   line-height: 1.6;
 }
+
+.project-hats-worn .project-heading-2,
+.project-tech-used .project-heading-2,
+.project-about .project-heading-2{
+  text-align: left;
+}
+
 
 .project-page .columns{
   display: grid;
@@ -22,14 +44,25 @@
   margin-bottom: 3rem;
 }
 
+/* .project-page .columns.project-top-block{
+  max-width: 1000px;
+  margin: auto;
+} */
+
 .project-page .columns-reverse{
   grid-template-columns: 1fr 2fr;
 }
 
 
-.project-page .project-hats-worn{
+.project-page .project-hats-worn,
+.project-page .project-tech-used{
   list-style-type: none;
   padding-left: 0;
+}
+
+.project-page .project-hats-worn li,
+.project-page .project-tech-used li{
+  
 }
 
 .project-page img{
@@ -49,9 +82,27 @@
   font-stretch: normal;
   line-height: 1.25;
   letter-spacing: normal;
-  text-align: left;
+  text-align: right;
   color: #6094ea;
   color: var(--soft-blue-two);
+}
+
+/* .project-requirements{
+  grid-area:2/2/2/2;
+} */
+
+.project-heading-3{
+  font-family: 'Muli','Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: right;
+  color: #6094ea;
+  color: var(--soft-blue-two);
+  margin-bottom: 1rem;
 }
 
 .project-page p{
@@ -76,6 +127,32 @@
   letter-spacing: normal;
   color: var(--base);
 }
+
+.project-requirements{
+  padding-left: 1rem;
+}
+
+.project-requirements li{
+  font-weight: normal;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.project-requirements li:first-of-type{
+  margin-top: 0;
+}
+
+.project-ux-insights li{
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.project-ux-insights li:first-of-type{
+  margin-top: 0;
+}
+
 
 .project-page .link-to-project{
   background-color: var(--soft-blue-two);

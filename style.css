@@ -203,7 +203,7 @@ nav ul li{
   color: var(--base);
 
   margin-left: 2rem;
-  max-width: 70%;
+  max-width: 85%;
 }
 
 .project-page-link{
@@ -250,16 +250,20 @@ a:hover{
   color:var(--pink-purple);
 }
 
-.project-page-link-nara{
+.project-page-link-fauna .project-image{
+  margin-left:12rem;
+}
+
+.project-page-link-2gwk{
   color:var(--robin-s-egg);
 }
 
-.project-page-link-nara:visited{
+.project-page-link-2gwk:visited{
   color:var(--robin-s-egg);
   text-decoration: none;
 }
 
-.project-page-link-nara:hover{
+.project-page-link-2gwk:hover{
   color:var(--washed-out-green);
 }
 
@@ -423,11 +427,11 @@ footer p{
     margin-top: 23rem;
   }
 
-  .nara{
+  .twogwk{
     margin-top: 30rem;
   }
 
-  .nara .project-image{
+  .twogwk .project-image{
     margin: 0;
     margin-left: 3rem;
   }
@@ -464,7 +468,7 @@ footer p{
 
 
   .img-studies,
-  .img-nara{
+  .img-2gwk{
     width: 500px;
   }
 
