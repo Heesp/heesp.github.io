@@ -22,8 +22,7 @@
   margin-bottom: 2rem;
 }
 
-.project-hats-worn span,
-.project-tech-used span{
+.project-hats-worn span{
   font-size: 23pt;
   margin-right: 2rem;
   line-height: 1.6;
@@ -60,9 +59,21 @@
   padding-left: 0;
 }
 
-.project-page .project-hats-worn li,
 .project-page .project-tech-used li{
-  
+  display: flex; 
+  align-items: center; 
+
+  margin-bottom: 1rem;
+}
+
+.project-page .project-tech-used li span{
+  margin-left: 2rem;
+}
+
+.project-page .project-tech-used .img-tech-used{
+  max-width: 50px;
+  max-height: 50px;
+  margin-bottom: 0;
 }
 
 .project-page img{
