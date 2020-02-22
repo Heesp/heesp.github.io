@@ -1,5 +1,5 @@
 .project-page{
-  max-width: 1200px;
+  max-width: 1000px;
   margin-top: 100px;
 }
 
@@ -140,7 +140,9 @@
 }
 
 .project-requirements{
-  padding-left: 1rem;
+  padding-left: 0;
+  list-style: none;
+  
 }
 
 .project-requirements li{
@@ -153,15 +155,34 @@
   margin-top: 0;
 }
 
+.project-requirements li>span{
+  color:var(--soft-blue-two);
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: block;
+}
+
+.project-ux-insights{
+  list-style: none;
+}
+
 .project-ux-insights li{
   font-weight: normal;
-  font-style: italic;
   margin-top: 1rem;
   font-size: 18px;
 }
 
 .project-ux-insights li:first-of-type{
   margin-top: 0;
+}
+
+.project-ux-insights li::before{
+  content: "\2022";
+  color: #4AC2C8;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 
