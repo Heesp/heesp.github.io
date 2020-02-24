@@ -352,6 +352,10 @@ a:hover{
   color: var(--base);
 }
 
+footer{
+  margin-top: 6rem;
+}
+
 footer p{
 
  font-family: 'Open Sans', sans-serif;

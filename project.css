@@ -3,7 +3,7 @@
   margin-top: 100px;
 }
 
-.project-page p{
+/* .project-page p{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -15,7 +15,7 @@
   color: var(--base);
 
   max-width: 85%;
-}
+} */
 
 .project-page .project-title{
   text-align: center;
@@ -49,7 +49,7 @@
 } */
 
 .project-page .columns-reverse{
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 4fr;
 }
 
 
@@ -57,6 +57,10 @@
 .project-page .project-tech-used{
   list-style-type: none;
   padding-left: 0;
+}
+
+.project-page .project-tech-used{
+  margin-top:2rem;
 }
 
 .project-page .project-tech-used li{
@@ -98,9 +102,15 @@
   color: var(--soft-blue-two);
 }
 
+.top-block-whitespace{
+  margin-top:4rem;
+}
+
 /* .project-requirements{
   grid-area:2/2/2/2;
 } */
+
+
 
 .project-heading-3{
   font-family: 'Muli','Helvetica', sans-serif;
@@ -116,6 +126,10 @@
   margin-bottom: 1rem;
 }
 
+.heading-hidden{
+  visibility: hidden;
+}
+
 .project-page p{
  font-family: 'Muli','Helvetica', sans-serif;
  font-size: 18px;
@@ -126,6 +140,11 @@
  letter-spacing: normal;
  text-align: left;
  color: var(--base);
+ max-width: 85%;
+}
+
+.project-page .columns-reverse p{
+  max-width: 100%;
 }
 
 .project-page li{
@@ -139,27 +158,25 @@
   color: var(--base);
 }
 
-.project-requirements{
-  padding-left: 0;
-  list-style: none;
-  
+
+/* SCOPE & CONSTRAINTS */
+
+.scope-list-item{
+  display: flex;
+  /* justify-content: flex-end; */
+  grid-column: 2/3;
 }
 
-.project-requirements li{
-  font-weight: normal;
-  margin-top: 1rem;
-  font-size: 18px;
-}
-
-.project-requirements li:first-of-type{
-  margin-top: 0;
-}
-
-.project-requirements li>span{
+.scope-list-item-heading{
   color:var(--soft-blue-two);
   font-size: 1.3rem;
   font-weight: 600;
   display: block;
+  margin-right: 2rem;
+}
+
+.scope-list-item .scope-list-item-descr{
+  max-width: 71%;
 }
 
 .project-ux-insights{
@@ -186,15 +203,36 @@
 }
 
 
+.outcome-list-item{
+  display: flex;
+  justify-content: space-between;
+  grid-column: 2/3;
+}
+
+.outcome-list-item-heading{
+  color:var(--soft-blue-two);
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: block;
+  margin-right: 2rem;
+  flex:1 0 10%;
+}
+
+.outcome-list-item .outcome-list-item-descr{
+  flex:5 0 50%;
+}
+
+
 .project-page .link-to-project{
-  background-color: var(--soft-blue-two);
+  color: var(--soft-blue-two);
+  background-color: transparent;
   border-radius: 5px;
   max-width: 200px;
   padding: 1rem 0.7rem;
   margin: auto;
   display: block;
   text-align: center;
-  color: white;
+  
   font-family: 'Muli','Helvetica', sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -203,8 +241,9 @@
 }
 
 .project-page .link-to-project:hover{
-  color: var(--soft-blue-two);
-  background-color: transparent;
+  background-color: var(--soft-blue-two);
+  color: white;
+  
   border: 1px solid var(--soft-blue-two);
 }
 
