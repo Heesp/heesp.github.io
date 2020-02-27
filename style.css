@@ -250,9 +250,6 @@ a:hover{
   color:var(--pink-purple);
 }
 
-.project-page-link-fauna .project-image{
-  margin-left:12rem;
-}
 
 .project-page-link-2gwk{
   color:var(--robin-s-egg);
@@ -380,6 +377,10 @@ footer p{
   .navbar-light .navbar-nav .nav-link{
     font-size: 20px;
   }
+  
+  .project-page-link-fauna .project-image{
+  margin-left:12rem;
+}
 
 /* ========== Top Block Styles ============= */
 
